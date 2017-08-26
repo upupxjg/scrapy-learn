@@ -28,3 +28,4 @@ class GqItem(scrapy.Item):
     actor = scrapy.Field()
     desc = scrapy.Field()
     magnet = scrapy.Field()
+    url = scrapy.Field()
